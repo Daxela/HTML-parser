@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Website</title>
+	 <link rel="stylesheet" href="{% static 'style.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'all.min.css' %}">
+</head>
+<body>
+	<div class="navigation">
+		<div class="nav-menu">
+			<ul class="menu">
+				<li class="nav-item"><a href="http://127.0.0.1:8000/myapp/main/" class="nav-link">Главная страница</a></li>
+				<li class="nav-item"><a href="http://127.0.0.1:8000/myapp/main/request/" class="nav-link">Запрос</a></li>
+				<li class="nav-item"><a href="http://127.0.0.1:8000/myapp/main/history/" class="nav-link">История запросов</a></li>
+			</ul>
+		</div>
+		</div>
+
+	<div class="main-information">
+		<div class="text-inform">
+			<h1>HTML-PARSER</h1>
+			<p class="tagline">Добро пожаловать! На нашем сайте вы можете получить основную информацию из html-страниц по их адресу. Для того чтобы начать работу нажмите на кнопку "Начать использовать". Далее для полуения основной информации из html-страницы введите адрес страницы и назвние сайта, нажмите кнопку "Получить информацию".</p>
+		</div>
+		<a class="btn btn--red" href="http://127.0.0.1:8000/myapp/main/request/">Начать использовать</a>
+	</div>
+	</div>
+</body>
+</html>

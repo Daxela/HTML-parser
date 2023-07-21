@@ -1,0 +1,146 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #246459;
+}
+
+
+/*====================Style for navigation======================*/
+.navigation {
+	z-index: 20;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background-color: #002e43;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+}
+
+.nav-item {
+	padding: 0 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: .3s;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: #b09f31;
+}
+
+
+
+
+/*=====================Style for main-information===============*/
+.main-information {
+	position: absolute;
+	display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(3.jpg);
+}
+
+.text-inform h1 {
+	top: 20%;
+	color: rgb(255, 255, 255);
+	font-size: 70px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.tagline {
+	color: #6b7cdc;
+	font-size: 20px;
+	margin: 10px 0;
+	padding: 5% 25%;
+	text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 60px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: x-large;
+    border: 0;
+    cursor: pointer;
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #e62d2d;
+}
+
+.btn--red:hover {
+    background-color: #dd3434;
+}
+/*=====================Request=========================*/
+fieldset {
+	background-color: #202082;
+	text-decoration-color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #ffffff;
+	text-align: center;
+    cursor: pointer;
+    transition: background .1s linear;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  legend {
+	background-color: rgb(128, 128, 128);
+	color: white;
+	padding: 5px 10px;
+  }
+  
+  input {
+	margin: 10px;
+	padding: 10px 20px;
+  }
+
+/*=====================Result=========================*/
+
+
+.search-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-form {
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: #6f6f6f;
+}
